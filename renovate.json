@@ -13,6 +13,12 @@
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
+    },
+    {
+      "matchPackageNames": ["*"],
+       "groupName": "all minor updates"
+      "matchUpdateTypes": ["minor"],
+      "enabled": true
     }
   ]
 }
