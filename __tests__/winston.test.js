@@ -1,7 +1,7 @@
 const winston = require('winston');
 
 test('erstellt einen Logger und loggt eine Nachricht', () => {
-  const logger = winston.createLogger({
+  const logger = winstonxx.createLogger({
     transports: [new winston.transports.Console({ silent: true })],
   });
   logger.info('Testmeldung');
