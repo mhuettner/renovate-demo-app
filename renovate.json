@@ -16,7 +16,7 @@
     },
     {
       "matchPackageNames": ["*"],
-      "groupName": "all minor updates"
+      "groupName": "all minor updates",
       "matchUpdateTypes": ["minor"],
       "enabled": true
     }
