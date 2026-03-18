@@ -4,6 +4,8 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
+  "schedule": ["before 6am on monday"],
+  "timezone": "Europe/Berlin",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor"],
